@@ -1,7 +1,7 @@
 # Weather Dashboard
 
 A weather app that provides current weather and forecast data on searched cities.
-Powered by [OpenWeatherMap API](https://openweathermap.org/) 
+Powered by [OpenWeatherMap API](https://openweathermap.org/)
 
 ![Screenshot](Screenshot.png)
 
