@@ -1,5 +1,5 @@
 $(() => {
-    const URL="http://api.openweathermap.org/data/2.5/";
+    const URL="https://api.openweathermap.org/data/2.5/";
     const API_KEY="5f17772a53e391e3c19b415d51fdd030";
 
 
