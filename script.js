@@ -38,7 +38,7 @@ $(() => {
             renderHistory(data.name);
             localStorage.setItem("weather-search-history", JSON.stringify(history));
 
-            let weatherEmoji = $("<img>").attr("src","http://openweathermap.org/img/wn/" + data.weather[0].icon + ".png");
+            let weatherEmoji = $("<img>").attr("src","https://openweathermap.org/img/wn/" + data.weather[0].icon + ".png");
             $("#city-name").append(weatherEmoji);
 
             let temp = ((data.main.temp - 273.15) * 9 / 5 + 32).toFixed(1) + "°F";
@@ -139,7 +139,7 @@ $(() => {
         return false;
     });
 
-    if(history){
+    if(history.length > 0){
         $("#search-input").val(history[history.length-1]);
         $("#search-bar").submit();
     }
